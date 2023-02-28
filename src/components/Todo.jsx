@@ -23,7 +23,7 @@ const Todo = ({todo}) => {
     >
         <input
             type="checkbox"
-            checked={completed}
+            // checked={completed}
             onClick={() => handleStatusChange(id)}
             className="opacity-0 absolute rounded-full"
         />
